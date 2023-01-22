@@ -1,0 +1,12 @@
+0 - Yasin			16
+
+1 - Mehmet			94
+
+2 - Sümeyye			47
+
+3 - Erva			42
+
+4 - Eyüp			85
+
+5 - Gıcık sümeyye			21
+

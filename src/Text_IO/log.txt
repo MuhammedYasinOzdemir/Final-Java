@@ -1,0 +1,12 @@
+	*********** Idman Programi ***********
+
+Burpee sayısı : 25
+Pushup sayısı : 15
+Situp sayısı : 52
+Squat sayısı : 42
+1.İşlem ---------------> Hareket : burpee Sayı : 12
+2.İşlem ---------------> Hareket : Burpee Sayı : 12
+3.İşlem ---------------> Hareket : Squat Sayı : 42
+4.İşlem ---------------> Hareket : Situo Sayı : 7
+5.İşlem ---------------> Hareket : Situp Sayı : 52
+6.İşlem ---------------> Hareket : Pushup Sayı : 15
