@@ -1,0 +1,25 @@
+Kullanma Kılavuzu
+Klavye:
+W ve UP : Yukarı
+S ve DOWN : Geri
+A ve LEFT :Sol
+D ve RİGHT : Sağ
+K : Top hızlanır
+M :Top yavaşlar
+Shift : Top büyür
+Ctrl :Top Küçültür
+Z : Top Renk değiştirir
+X : Border Renk değiştirir
+C : Arka Plan renk değişirir
+Enter: Yatayda Animasyon Başlatır
+Back_Space : dikeyde animasyon Başlatır
+ESC : Animasyonları Sonlandırır
+Space : Boya bırakır
+Del : Tüm Boyaları siler
+Q : ÜStundeki boyayı siler
+Mouse:
+Arka plana tıklandığında arka plan renk değişir
+Top a tıklnadığında top ile arka plan değişir
+
+Muhammed Yasin Özdemir
+171421005

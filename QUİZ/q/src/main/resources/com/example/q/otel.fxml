@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.q.OtelContrroller">
+   <children>
+      <Label layoutX="25.0" layoutY="44.0" prefHeight="42.0" prefWidth="70.0" />
+      <Label alignment="TOP_CENTER" layoutX="95.0" layoutY="44.0" prefHeight="24.0" prefWidth="150.0" text="Bodrum">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="245.0" layoutY="44.0" prefHeight="24.0" prefWidth="150.0" text="Çeşme">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="395.0" layoutY="44.0" prefHeight="24.0" prefWidth="150.0" text="Marmaris">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="98.0" prefHeight="20.0" prefWidth="70.0" text="Family" />
+      <Label layoutX="25.0" layoutY="116.0" prefHeight="20.0" prefWidth="70.0" text="Deluxe" />
+      <Label layoutX="25.0" layoutY="134.0" prefHeight="20.0" prefWidth="70.0" text="King Suit" />
+      <Label layoutX="95.0" layoutY="67.0" prefHeight="20.0" prefWidth="75.0" text="Yetişkin" />
+      <Label layoutX="170.0" layoutY="67.0" prefHeight="20.0" prefWidth="75.0" text="Çocuk" />
+      <Label layoutX="245.0" layoutY="67.0" prefHeight="20.0" prefWidth="75.0" text="Yetişkin" />
+      <Label layoutX="320.0" layoutY="67.0" prefHeight="20.0" prefWidth="75.0" text="Çocuk" />
+      <Label layoutX="409.0" layoutY="67.0" prefHeight="20.0" prefWidth="75.0" text="Yetişkin" />
+      <Label layoutX="484.0" layoutY="67.0" prefHeight="20.0" prefWidth="75.0" text="Çocuk" />
+      <Label fx:id="family_cy" layoutX="94.0" layoutY="97.0" prefHeight="18.0" prefWidth="75.0" text="10" />
+      <Label fx:id="family_c" layoutX="169.0" layoutY="97.0" prefWidth="75.0" text="5" />
+      <Label layoutX="94.0" layoutY="116.0" prefHeight="18.0" prefWidth="75.0" text="12" />
+      <Label layoutX="169.0" layoutY="116.0" prefWidth="75.0" text="6" />
+      <Label layoutX="94.0" layoutY="136.0" prefHeight="18.0" prefWidth="75.0" text="14" />
+      <Label layoutX="169.0" layoutY="134.0" prefWidth="75.0" text="7" />
+      <Label layoutX="244.0" layoutY="97.0" prefHeight="18.0" prefWidth="75.0" text="6" />
+      <Label layoutX="319.0" layoutY="97.0" prefWidth="75.0" text="3" />
+      <Label layoutX="244.0" layoutY="116.0" prefHeight="18.0" prefWidth="75.0" text="8" />
+      <Label layoutX="319.0" layoutY="116.0" prefWidth="75.0" text="4" />
+      <Label layoutX="244.0" layoutY="136.0" prefHeight="18.0" prefWidth="75.0" text="10" />
+      <Label layoutX="319.0" layoutY="134.0" prefWidth="75.0" text="5" />
+      <Label layoutX="395.0" layoutY="97.0" prefHeight="18.0" prefWidth="75.0" text="2" />
+      <Label layoutX="470.0" layoutY="97.0" prefWidth="75.0" text="1" />
+      <Label layoutX="395.0" layoutY="116.0" prefHeight="18.0" prefWidth="75.0" text="4" />
+      <Label layoutX="470.0" layoutY="116.0" prefWidth="75.0" text="2" />
+      <Label layoutX="395.0" layoutY="136.0" prefHeight="18.0" prefWidth="75.0" text="6" />
+      <Label layoutX="470.0" layoutY="134.0" prefWidth="75.0" text="3" />
+      <RadioButton fx:id="family_radio" layoutX="16.0" layoutY="176.0" mnemonicParsing="false" text="Family">
+         <toggleGroup>
+            <ToggleGroup fx:id="radio" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="deluxe_radio" layoutX="16.0" layoutY="212.0" mnemonicParsing="false" text="Deluxe" toggleGroup="$radio" />
+      <RadioButton fx:id="king_radio" layoutX="16.0" layoutY="251.0" mnemonicParsing="false" text="King Suit" toggleGroup="$radio" />
+      <TextField fx:id="tatil_sure" layoutX="301.0" layoutY="240.0" />
+      <Label layoutX="208.0" layoutY="244.0" text="Kaç gece tatil :" />
+      <Button fx:id="tutar_button" layoutX="277.0" layoutY="320.0" mnemonicParsing="false" onAction="#tutarHesapla" text="Total" />
+      <Button layoutX="335.0" layoutY="320.0" mnemonicParsing="false" onAction="#rezerveEt" text="Rezervasyon" />
+      <Button layoutX="428.0" layoutY="320.0" mnemonicParsing="false" onAction="#reset" text="Reset" />
+      <Button layoutX="488.0" layoutY="320.0" mnemonicParsing="false" onAction="#exit" text="Exit" />
+      <Label fx:id="tutar" layoutX="287.0" layoutY="290.0" prefHeight="18.0" prefWidth="244.0" />
+      <Label layoutX="208.0" layoutY="200.0" text="Yetişkin" />
+      <Label layoutX="210.0" layoutY="220.0" text="Çocuk" />
+      <TextField fx:id="yetiskin_text" layoutX="295.0" layoutY="187.0" />
+      <TextField fx:id="cocuk_text" layoutX="295.0" layoutY="216.0" />
+      <Label layoutX="431.0" layoutY="10.0" text="Muhammed Yasin Özdemir" />
+      <Label layoutX="450.0" layoutY="28.0" text="171421005" />
+   </children>
+</AnchorPane>

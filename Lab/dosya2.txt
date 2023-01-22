@@ -1,0 +1,4 @@
+Toplam:412
+Ortalama:4
+Minumum:0
+Maximum:9
